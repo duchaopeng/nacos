@@ -1,0 +1,14 @@
+server:
+  port: 8814
+
+spring:
+  application:
+    name: order
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+#      server-addr: 192.168.31.109:8080
+#      discovery:
+#        username: nacos
+#        password: nacos
+#        namespace: public
